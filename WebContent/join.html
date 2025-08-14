@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LearnwithDJ — Join Us</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="images/logo.png" alt="LearnwithDJ Logo" style="height:40px; margin-right:8px;">
+        <div>
+          LearnwithDJ<br/>
+          <small class="text-muted">10 Years of Academic Excellence</small>
+        </div>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navMenu"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="articles.html">Articles</a></li>
+          <li class="nav-item"><a class="nav-link" href="story.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="join.html">Join Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <div class="hero-banner py-5">
+  <div class="container">
+    <h1 class="fw-bold">Join Me!</h1>
+    <p>Share Knowledge, Make a Difference</p>
+  </div>
+</div>
+
+
+  <!-- MAIN CONTENT -->
+  <main class="container my-5">
+    <div class="row gy-5">
+      <!-- Left: Pitch -->
+      <div class="col-md-6">
+        <h2>At Learn with DJ, I believe in the power of knowledge—and more importantly, in the people who carry it.</h2>
+        <p>This platform is not just for students. It’s also for people like you—those who are academically strong but, for one reason or another, stepped away from their professional careers. Whether it’s due to family obligations, marriage, childbirth, relocation, or a career break, your knowledge is still valuable—and it deserves a place to shine.</p>
+
+        <p>If you’re someone who:</p>
+        <ul>
+          <li>✅ Has a strong academic background</li>
+          <li>✅ Loves helping others learn</li>
+          <li>✅ Wants to earn a side income by sharing your expertise</li>
+        </ul>
+
+        <p>Then I invite you to join me in this mission.</p>
+
+        <p>Here’s the best part —</p>
+        <p>🧡 You can do this remotely, at the comfort of your home, whenever and wherever you want. No office. No schedule. Just your knowledge and the passion to help others.</p>
+        <p>👉 You felt it? Then just do it. Fill out the form and let me know how you’d like to contribute. Let’s build something impactful—together.</p>
+
+        <p class="fw-bold">— DJ</p>
+      </div>
+
+      <!-- Right: Application Form -->
+      <div class="col-md-6">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h4 class="card-title mb-4">Apply to Join</h4>
+            <form id="join-form" method="POST" action="<!-- your Apps Script URL -->" enctype="multipart/form-data">
+              <div class="mb-3">
+                <label for="fullName" class="form-label">Full Name *</label>
+                <input type="text" class="form-control" id="fullName" name="fullName" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email Address *</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number *</label>
+                <input type="tel" class="form-control" id="phone" name="phone" required>
+              </div>
+              <div class="mb-3">
+                <label for="expertise" class="form-label">Areas of Expertise *</label>
+                <textarea class="form-control" id="expertise" name="expertise" rows="2" placeholder="e.g. Machine Learning, Statistics, Networking" required></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="availability" class="form-label">Availability *</label>
+                <input type="text" class="form-control" id="availability" name="availability" placeholder="e.g. Weeknights, Weekends" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Additional Comments</label>
+                <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Submit Application</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer mt-5 pt-4 border-top">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center py-3">
+    <!-- Left side: Logo + text -->
+	 <div class="d-flex align-items-center mb-3 mb-md-0">
+	  <img src="images/logo.png" alt="LearnwithDJ Logo" style="height: 30px; margin-right: 10px;">
+	  <span class="text-white small">
+	    &copy; 2025 DJ IT Solutions, LLC. All rights reserved. 
+	  </span>
+	</div>
+
+    <!-- Social media icons -->
+    <div class="d-flex align-items-center footer-social">
+      <a href="https://www.instagram.com/yourhandle" target="_blank" class="text-white ms-3" title="Instagram">
+        <i class="bi bi-instagram fs-5"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="text-white ms-3" title="LinkedIn">
+        <i class="bi bi-linkedin fs-5"></i>
+      </a>
+      <a href="https://t.me/yourtelegram" target="_blank" class="text-white ms-3" title="Telegram">
+        <i class="bi bi-telegram fs-5"></i>
+      </a>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

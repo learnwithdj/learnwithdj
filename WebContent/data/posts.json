@@ -1,0 +1,32 @@
+[
+  {
+  "title": "How to Structure a Winning Research Paper",
+  "slug": "winning-research-paper",
+  "date": "2025-08-03",
+  "tags": ["Research", "Writing", "Graduate School"],
+  "content": "winning-research-paper.html"
+},
+  {
+    "title": "How to Tackle AI Hallucination in Assignments",
+    "slug": "ai-hallucination",
+    "date": "2025-07-30",
+    "tags": ["AI", "Academic Integrity", "Concept Clarity"],
+    "content": "sample-post.html"
+  },
+  {
+    "title": "Writing a Perfect Literature Review",
+    "slug": "literature-review",
+    "date": "2025-06-15",
+    "tags": ["Research", "Writing", "Literature Review"],
+    "content": "literature-review.html"
+  },
+  {
+    "title": "Understanding HIPAA vs. PCI DSS in Cloud Security",
+    "slug": "hipaa-vs-pci-dss",
+    "date": "2025-05-22",
+    "tags": ["Cloud Security", "HIPAA", "PCI DSS", "Compliance"],
+    "content": "hipaa-pci-comparison.html"
+  }
+ 
+  
+]
